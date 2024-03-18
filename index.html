@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 9999; 
+}
+
+.sidebar-left {
+    background-color: #f4f4f4;
+    width: 250px;
+    position: fixed;
+    top: 97px; 
+    bottom: 0;
+    left: 0;
+    z-index: 9998; 
+}
+
+.sidebar-right {
+    background-color: #e0e0e0;
+    width: 200px;
+    position: fixed;
+    top: 97px; 
+    bottom: 0;
+    right: 0;
+    z-index: 9998; 
+}
+
+/* .content {
+    margin-top: 120px; 
+    margin-left: 200px; 
+    margin-right: 200px; 
+    padding: 20px;
+} */
+
+h3{
+font-size: 30px;
+font-weight: bold;
+margin-top: 15px;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: bold;
+    }
+
+    .content-container {
+        display: flex;
+        margin-top: 250px;
+        align-items: stretch;
+        flex-wrap: wrap;
+        margin-left: 20px;
+        justify-content: space-around;
+    }
+    
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    padding: 50px;
+}
+
+.box {
+    width: 40%;
+    margin-left: 80px;
+    margin-right: 36px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    z-index: 9998; 
+}
+
+
+</style>
+<body>
+
+
+    
+    <header>
+        <h1>Welcome to Our Website</h1>
+    </header>
+
+<div class="container">
+
+    <div class="sidebar sidebar-left">
+        <center>
+            <h3>Pages</h3>
+            <ul>
+                <li><a href="B1.html">Kier Quizon</a></li>
+                <li><a href="B2.html">Paula Samaniego</a></li>
+                <li><a href="B3.html">Demitri Ivan Peralta</a></li>
+                <li><a href="B4.html">Andrei Francezca Gonzales</a></li>
+            </ul>
+        </center>
+    </div>
+
+    <div class="content-container">
+        <div class="box">
+            <center>
+                <h2>Box 1</h2>
+                <p>content...</p>
+
+                <div class="box">
+                    <center>
+                        <h2>Small Box 1</h2>
+                        <p>Content...</p>
+                    </center>
+                </div>
+            
+                <div class="box">
+                    <center>
+                        <h2>Small Box 2</h2>
+                        <p>Content...</p>
+                    </center>
+                </div>
+
+            </center>
+        </div>
+
+        <div class="box">
+            <center>
+                <h2>Box 2</h2>
+                <p>content...</p>
+                
+            </center>
+        </div>
+    </div>
+    
+
+
+    <div class="sidebar sidebar-right">
+        <center>
+            <h3>Group Members</h3>
+            <ol>
+                <li><h5>Andrei Francezca</h5></li>
+                <li><h5>Paula Mae</h5></li>
+                <li><h5>Demitri Ivan</h5></li>
+                <li><h5>Kier</h5></li>
+                    
+            </ol>
+        </center>
+    </div>
+
+</div>
+    <footer>
+        <p>&copy; 2024 BSIT 3B. All Rights Reserved.</p>
+    </footer>
+    
+
+
+
+
+</body>
+</html>
+
